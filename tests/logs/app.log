@@ -1,0 +1,18 @@
+INFO: 2025/06/07 19:52:56 db.go:20: Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/07 19:52:56 db.go:28: ✅ Successfully connected to the database.
+ERROR: 2025/06/07 19:52:56 db.go:39: ❌ Failed during auto-migration: ERROR: could not create unique index "uni_categories_name" (SQLSTATE 23505)
+INFO: 2025/06/07 19:54:38 db.go:20: Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/07 19:54:38 db.go:28: ✅ Successfully connected to the database.
+ERROR: 2025/06/07 19:54:38 db.go:39: ⚠️ Migration warning: ERROR: could not create unique index "uni_categories_name" (SQLSTATE 23505) (this might be non-fatal)
+INFO: 2025/06/07 19:56:06 db.go:20: Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/07 19:56:06 db.go:28: ✅ Successfully connected to the database.
+ERROR: 2025/06/07 19:56:06 db.go:39: ⚠️ Migration warning: ERROR: could not create unique index "uni_categories_name" (SQLSTATE 23505) (this might be non-fatal)
+INFO: 2025/06/10 14:07:09 db.go:54: ⚠️ TEST_DATABASE_URL not set. Using fallback test DSN.
+ERROR: 2025/06/10 14:07:09 db.go:59: ❌ Failed to connect to test database: failed to connect to `user=postgres database=shetiseva_test`:
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+INFO: 2025/06/10 14:13:36 db.go:54: ⚠️ TEST_DATABASE_URL not set. Using fallback test DSN.
+ERROR: 2025/06/10 14:13:36 db.go:59: ❌ Failed to connect to test database: failed to connect to `user=postgres database=shetiseva_test`: 127.0.0.1:5432 (localhost): failed SASL auth: FATAL: password authentication failed for user "postgres" (SQLSTATE 28P01)
+INFO: 2025/06/10 14:17:59 db.go:54: ⚠️ TEST_DATABASE_URL not set. Using fallback test DSN.
+ERROR: 2025/06/10 14:17:59 db.go:59: ❌ Failed to connect to test database: failed to connect to `user=postgres database=shetiseva_test`: 127.0.0.1:5432 (localhost): failed SASL auth: FATAL: password authentication failed for user "postgres" (SQLSTATE 28P01)
+INFO: 2025/06/10 14:20:31 db.go:63: ✅ Connected to test database.

@@ -1,0 +1,52 @@
+INFO: 2025/06/07 19:56:33 db.go:20: Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/07 19:56:33 db.go:28: ✅ Successfully connected to the database.
+ERROR: 2025/06/07 19:56:33 db.go:39: ⚠️ Migration warning: ERROR: could not create unique index "uni_categories_name" (SQLSTATE 23505) (this might be non-fatal)
+INFO: 2025/06/07 19:58:36 db.go:20: Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/07 19:58:36 db.go:28: ✅ Successfully connected to the database.
+ERROR: 2025/06/07 19:58:36 db.go:39: ⚠️ Migration warning: ERROR: could not create unique index "uni_categories_name" (SQLSTATE 23505) (this might be non-fatal)
+INFO: 2025/06/07 21:30:33 db.go:20: Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/07 21:30:33 db.go:28: ✅ Successfully connected to the database.
+ERROR: 2025/06/07 21:30:33 db.go:39: ⚠️ Migration warning: ERROR: could not create unique index "uni_categories_name" (SQLSTATE 23505) (this might be non-fatal)
+INFO: 2025/06/07 21:33:05 db.go:20: Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/07 21:33:05 db.go:28: ✅ Successfully connected to the database.
+ERROR: 2025/06/07 21:33:06 db.go:39: ⚠️ Migration warning: ERROR: could not create unique index "uni_categories_name" (SQLSTATE 23505) (this might be non-fatal)
+INFO: 2025/06/08 18:30:37 db.go:20: Environment variable DATABASE_URL not set. Using fallback DSN.
+ERROR: 2025/06/08 18:30:37 db.go:25: ❌ Failed to connect to database: failed to connect to `user=postgres database=shetiseva`:
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+INFO: 2025/06/08 18:32:38 db.go:20: Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/08 18:32:38 db.go:28: ✅ Successfully connected to the database.
+ERROR: 2025/06/08 18:32:38 db.go:39: ⚠️ Migration warning: ERROR: could not create unique index "uni_categories_name" (SQLSTATE 23505) (this might be non-fatal)
+INFO: 2025/06/10 14:28:08 db.go:21: ⚠️ Environment variable DATABASE_URL not set. Using fallback DSN.
+ERROR: 2025/06/10 14:28:08 db.go:26: ❌ Failed to connect to database: failed to connect to `user=postgres database=shetiseva`: 127.0.0.1:5432 (localhost): failed SASL auth: FATAL: password authentication failed for user "postgres" (SQLSTATE 28P01)
+INFO: 2025/06/10 14:32:38 db.go:21: ⚠️ Environment variable DATABASE_URL not set. Using fallback DSN.
+ERROR: 2025/06/10 14:32:38 db.go:26: ❌ Failed to connect to database: failed to connect to `user=postgres database=shetiseva`: 127.0.0.1:5432 (localhost): server error: FATAL: database "shetiseva" does not exist (SQLSTATE 3D000)
+INFO: 2025/06/10 14:33:28 db.go:21: ⚠️ Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/10 14:33:28 db.go:30: ✅ Successfully connected to the database.
+INFO: 2025/06/10 14:33:28 db.go:43: ✅ Database migration completed.
+INFO: 2025/06/10 22:23:29 db.go:23: ⚠️ Environment variable DATABASE_URL not set. Using fallback DSN.
+INFO: 2025/06/10 22:23:29 db.go:32: ✅ Successfully connected to the production database.
+INFO: 2025/06/10 22:23:29 db.go:47: ✅ Database migration completed.
+ERROR: 2025/06/10 22:31:13 db.go:28: ❌ Failed to connect to database: failed to connect to `user=username database=shetiseva_db`: 127.0.0.1:5432 (localhost): failed SASL auth: FATAL: password authentication failed for user "username" (SQLSTATE 28P01)
+INFO: 2025/06/10 22:32:58 db.go:32: ✅ Successfully connected to the production database.
+INFO: 2025/06/10 22:32:58 db.go:47: ✅ Database migration completed.
+INFO: 2025/06/10 22:35:23 db.go:32: ✅ Successfully connected to the production database.
+INFO: 2025/06/10 22:35:23 db.go:47: ✅ Database migration completed.
+INFO: 2025/06/10 23:02:33 db.go:32: ✅ Successfully connected to the production database.
+INFO: 2025/06/10 23:02:33 db.go:47: ✅ Database migration completed.
+INFO: 2025/06/10 23:06:54 db.go:32: ✅ Successfully connected to the production database.
+INFO: 2025/06/10 23:06:55 db.go:47: ✅ Database migration completed.
+INFO: 2025/06/10 23:08:29 db.go:32: ✅ Successfully connected to the production database.
+INFO: 2025/06/10 23:08:29 db.go:47: ✅ Database migration completed.
+INFO: 2025/06/10 23:19:52 db.go:32: ✅ Successfully connected to the production database.
+INFO: 2025/06/10 23:19:53 db.go:47: ✅ Database migration completed.
+INFO: 2025/06/10 23:28:35 db.go:32: ✅ Successfully connected to the production database.
+INFO: 2025/06/10 23:28:35 db.go:47: ✅ Database migration completed.
+INFO: 2025/06/11 13:01:56 db.go:34: ✅ Successfully connected to the production database.
+INFO: 2025/06/11 13:01:57 db.go:49: ✅ Database migration completed.
+INFO: 2025/06/11 15:30:40 db.go:34: ✅ Successfully connected to the production database.
+INFO: 2025/06/11 15:30:40 db.go:49: ✅ Database migration completed.
+INFO: 2025/06/11 17:20:37 db.go:34: ✅ Successfully connected to the production database.
+INFO: 2025/06/11 17:20:37 db.go:50: ✅ Database migration completed.
+INFO: 2025/06/11 17:22:31 db.go:34: ✅ Successfully connected to the production database.
+INFO: 2025/06/11 17:22:31 db.go:50: ✅ Database migration completed.
